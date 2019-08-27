@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     private float timeStartScene;
-    private float score;
+    public float score;
     [SerializeField]
     private Text scoreText;
     

@@ -15,6 +15,7 @@ MonoBehaviour:
   settings:
   - {fileID: 114240301784475732}
   - {fileID: 114240767393111916}
+  - {fileID: 114879225991724076}
 --- !u!114 &114240301784475732
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -36,7 +37,7 @@ MonoBehaviour:
     value: 5
   aperture:
     overrideState: 1
-    value: 3.5
+    value: 4
   focalLength:
     overrideState: 1
     value: 50
@@ -60,29 +61,29 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   intensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 5
   threshold:
-    overrideState: 0
+    overrideState: 1
     value: 1
   softKnee:
-    overrideState: 0
+    overrideState: 1
     value: 0.5
   clamp:
-    overrideState: 0
-    value: 65472
+    overrideState: 1
+    value: 65470.01
   diffusion:
-    overrideState: 0
-    value: 7
+    overrideState: 1
+    value: 6
   anamorphicRatio:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -0.24
   color:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
+    overrideState: 1
+    value: {r: 1.3434752, g: 0.360602, b: 0.28838998, a: 1}
   fastMode:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
   dirtTexture:
     overrideState: 0
     value: {fileID: 0}
@@ -90,3 +91,47 @@ MonoBehaviour:
   dirtIntensity:
     overrideState: 0
     value: 0
+--- !u!114 &114879225991724076
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b924e2dad56384a8df2a1e111bb675, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  mode:
+    overrideState: 1
+    value: 0
+  color:
+    overrideState: 1
+    value: {r: 0, g: 0.2793231, b: 1, a: 1}
+  center:
+    overrideState: 1
+    value: {x: 0.5, y: 0.5}
+  intensity:
+    overrideState: 1
+    value: 0.241
+  smoothness:
+    overrideState: 1
+    value: 0.331
+  roundness:
+    overrideState: 1
+    value: 1
+  rounded:
+    overrideState: 1
+    value: 1
+  mask:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  opacity:
+    overrideState: 0
+    value: 1
